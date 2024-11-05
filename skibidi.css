@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+/*Top Navigation bar*/
+.topnav{
+    background-color: #101010;
+    font-size: 20px;
+    padding: 10px; 
+}
+.nav_text{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.topnav a:hover{
+    color: black;
+    background-color: #777;
+}
+/*pic thingy*/
+.main{
+    background-image: url(https://pbs.twimg.com/media/FMdBz70WQAMFMFl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+/*Text*/
+.tittle_1{
+    font-size: 120%;
+    padding-top: 10%;
+    color: white;
+}
+
+/*Pics*/
+.pic{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.container{
+    column-count: 3;
+    max-width: 10000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/*Footer*/
+.footer{
+    text-align: center;
+    padding: 1%;
+    background-color: #f1f1f1;
+}
